@@ -9,7 +9,7 @@ During my time in Software Development II I learned alot about the Ruby and Rail
 I now understand why this model is important and efficient while developing rails web apps.
 
 ##The Model
- According to betterexplained.com models are Ruby classes  that talk to the database, store and validate data, perform the business logic. Below is some code that will displays a Rails model
+ According to betterexplained.com models are Ruby classes  that talk to the database, store and validate data, perform the business logic. Below is some code that will provide an example of a Rails model
  ```
  class User < ActiveRecord::Base
     has_secure_password
@@ -103,7 +103,7 @@ The MVC begins by first splitting applications into three primary tasks
 ##Start the server
  In order to activate the view type 
  ```
- server -b $IP -p $PORT
+rails server -b $IP -p $PORT
  ```
   Rails will genrate a local host link to your web app, click the link and your view should look like the picture below.
   ![alt text](http://guides.rubyonrails.org/images/getting_started/rails_welcome.png "Rails Welcome Page")
