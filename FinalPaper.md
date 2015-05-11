@@ -130,3 +130,4 @@ file delete all the code and type.
   ``` 
   root 'welcome#index'
   ```
+This will tell Rails to map all request to the welcome controllers index
