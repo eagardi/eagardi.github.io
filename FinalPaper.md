@@ -101,8 +101,8 @@ The MVC begins by first splitting applications into three primary tasks
  Numerous files and folders will be automatically generated but the most important at this time is the "app" folder which contains the controllers, models and views folder.
  
 ##Start the server
- 
- 
- Continue here talking about creating a rails app and tie everything into MVC
- 
+ In order to activate the view type 
+ ```
+ server -b $IP -p $PORT
+ ```
  
