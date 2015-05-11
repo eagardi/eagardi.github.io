@@ -108,4 +108,11 @@ The MVC begins by first splitting applications into three primary tasks
   Rails will genrate a local host link to your web app, click the link and your view should look like the picture below.
   ![alt text](http://guides.rubyonrails.org/images/getting_started/rails_welcome.png "Rails Welcome Page")
   
+  As you can see its a very generic plain view of the app. To change what the user will see we will need to generate a controller. Which will generate  a view automatically. If we type 
+  ``` 
+  rails generate controller welcome index
+  ```
+  into the terminal rails will generate a few files for you as seen below some of the files are html.erb files which will render a view to the user.
+  ![alt text](http://codethinked.wpengine.netdna-cdn.com/wp-content/uploads/image13.png "Rails Controller")
+  
   
