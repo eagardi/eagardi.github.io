@@ -6,5 +6,13 @@ During my time in Software Development II I learned alot about the Ruby and Rail
 
 ##The Model
  According to betterexplained.com models are Ruby classes  that talk to the database, store and validate data, perform the business logic.
+ ```
+ class User < ActiveRecord::Base
+    has_secure_password
+    validates_uniqueness_of :email
+    has_many :posts
+    has_many :comments
+end
+```
 
 
