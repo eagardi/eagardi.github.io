@@ -179,3 +179,7 @@ Model View Controller design pattern is a very sucessful design because it seper
 3. Displaying Output
   - Handled By the View 
  I learned that Rails makes it easy to generate controllers and models that can be easily manipulated to create powerful web apps that are backed with databases. Views are the things that the users can see, Models are the persistent data and database information and the Controller is the middleman that directs where the user interaction goes.
+
+##References
+1. Better Explained - http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/
+2. Rails Guide - http://guides.rubyonrails.org/getting_started.html
