@@ -98,5 +98,11 @@ The MVC begins by first splitting applications into three primary tasks
 ##Creating a Rails App
  When creating a Rails app the first thing you should do make sure that you have the right version of rails installed
  then type "rails new AppName" in the terminal (AppName is the name of the app that you want to create)
+ Numerous files and folders will be automatically generated but the most important at this time is the "app" folder which contains the controllers, models and views folder.
+ 
+##Start the server
+ 
+ 
+ Continue here talking about creating a rails app and tie everything into MVC
  
  
