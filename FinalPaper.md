@@ -116,4 +116,13 @@ The MVC begins by first splitting applications into three primary tasks
   
   ![alt text](http://codethinked.wpengine.netdna-cdn.com/wp-content/uploads/image13.png "Rails Controller")
   
-  
+##Updating the View
+Located in the 
+```
+app/views/welcome/index.html.erb
+```
+file delete all the code and type
+ ```
+ <h1> Home Page </h1>
+ 
+ ```
