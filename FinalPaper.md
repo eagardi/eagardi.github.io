@@ -133,3 +133,10 @@ file delete all the code and type.
   ```
 This will tell Rails to map all request to the welcome controllers index
 
+##Updating the Model
+As stated previously the model is primarily used to store and manipulate data in most cases in a database.
+After generating your controller run a migration by typing 
+```
+rake db:migrate 
+```
+into the terminal. This command will apply all the new changes in the model to the schema. All of the different relationships that have been update or created will all be applied to the schema.
