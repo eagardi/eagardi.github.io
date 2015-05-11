@@ -19,10 +19,10 @@ During my time in Software Development II I learned alot about the Ruby and Rail
 end
 ```
 ##The View
-
+According to betterexplained.com the view is 
 
 
 
 
 ##The Controller
-
+Accordingng to betterexplained.com the controller is  responsible for parsing user requests and data submissions, cookies, sessions. They’re the pointy-haired manager that orders employees around. The best controller is Dilbert-esque: It gives orders without knowing (or caring) how it gets done. In our case, the show method in the video controller knows it needs to lookup a video. It asks the model to get video 15, and will eventually display it to the user.
