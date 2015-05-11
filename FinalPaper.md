@@ -9,7 +9,7 @@ During my time in Software Development II I learned alot about the Ruby and Rail
 However, I now understand why this model is important and efficient while developing rails web apps.
 
 ##The Model
- According to betterexplained.com models are Ruby classes  that talk to the database, store and validate data, perform the business logic.
+ According to betterexplained.com models are Ruby classes  that talk to the database, store and validate data, perform the business logic. Below is some code that will displays a Rails model
  ```
  class User < ActiveRecord::Base
     has_secure_password
@@ -20,6 +20,7 @@ end
 ```
 ##The View
 According to betterexplained.com the views are what the user sees: HTML, CSS, XML, Javascript, JSON.
+Below is some HTML that displays Rails view
 
 ```
 <!DOCTYPE html>
@@ -57,6 +58,7 @@ According to betterexplained.com the views are what the user sees: HTML, CSS, XM
 
 ##The Controller
 Accordingng to betterexplained.com the controller is  responsible for parsing user requests and data submissions, cookies, sessions. Will process and respond to user interactions and make changes to the model and view.
+Below is some code that displays a Rails Controller
 ```
     class UsersController < ApplicationController
   def index
