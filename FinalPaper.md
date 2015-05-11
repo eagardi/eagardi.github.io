@@ -86,7 +86,7 @@ end
 The MVC begins by first splitting applications into three primary tasks
 
 1. Receive User Input
-- Handled By the Controller
+  - Handled By the Controller
 2. Process Data
   - If needed handled by the Model
 3. Displaying Output
