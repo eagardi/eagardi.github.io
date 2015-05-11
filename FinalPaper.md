@@ -88,7 +88,7 @@ The MVC begins by first splitting applications into three primary tasks
 2. Process Data
 3. Displaying Output
 
-![alt text](http://guides.rubyonrails.org/images/getting_started/rails_welcome.png "Logo Title Text 1")
+![alt text](https://cms-assets.tutsplus.com/uploads/users/263/posts/21627/image/mvc.png "Logo Title Text 1")
 
 
  The Browser directly talks to the controller which will make a decision on what do to based on the request. If the user
@@ -106,5 +106,6 @@ The MVC begins by first splitting applications into three primary tasks
  server -b $IP -p $PORT
  ```
   Rails will genrate a local host link to your web app, click the link and your view should look like the picture below.
-  ![alt text](https://detouristsdiary.files.wordpress.com/2014/09/frustration-computer.gif "Logo Title Text 1")
+  ![alt text](http://guides.rubyonrails.org/images/getting_started/rails_welcome.png "Logo Title Text 1")
+  
   
