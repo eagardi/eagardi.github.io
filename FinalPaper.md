@@ -168,3 +168,12 @@ In the example provided
 end
 ``` 
 The UserController is used to 'control' where the user goes when certain actions occur. If the user click a button that is routed to the new method in the UserController a new User is created. In the def create method above if the user is a new user is created with different parameters. Updating the controller is solely based on developers want the controller to control.
+
+##Conclusion
+Model View Controller design pattern is a very sucessful design because it seperates functionality into three sections 
+1. Receive User Input
+  - Handled By the Controller
+2. Process Data
+  - If needed handled by the Model
+3. Displaying Output
+  - Handled By the View 
