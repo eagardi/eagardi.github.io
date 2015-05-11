@@ -105,4 +105,6 @@ The MVC begins by first splitting applications into three primary tasks
  ```
  server -b $IP -p $PORT
  ```
- 
+  Rails will genrate a local host link to your web app, click the link and your view should look like the picture below.
+  ![alt text](![alt text](https://detouristsdiary.files.wordpress.com/2014/09/frustration-computer.gif "Logo Title Text 1")
+  
