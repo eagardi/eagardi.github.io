@@ -77,3 +77,6 @@ Accordingng to betterexplained.com the controller is  responsible for parsing us
   end
 end
 ```
+
+##How do they all work together?
+![alt text](https://cms-assets.tutsplus.com/uploads/users/263/posts/21627/image/mvc.png "Logo Title Text 1")
