@@ -18,9 +18,10 @@ I now understand why this model is important and efficient while developing rail
     has_many :comments
 end
 ```
+
 ##The View
 According to betterexplained.com the views are what the user sees: HTML, CSS, XML, Javascript, JSON.
-Below is some HTML that displays Rails view
+Below is some HTML that displays Rails view. Views are attached to the model and gets data necessary for the presentation from the model by asking questions.
 
 ```
 <!DOCTYPE html>
@@ -57,8 +58,8 @@ Below is some HTML that displays Rails view
 
 
 ##The Controller
-Accordingng to betterexplained.com the controller is  responsible for parsing user requests and data submissions, cookies, sessions. Will process and respond to user interactions and make changes to the model and view.
-Below is some code that displays a Rails Controller
+Accordingng to betterexplained.com the controller is  responsible for parsing user requests and data submissions, cookies, sessions. A controller is the link between a user and the system by translating the appropriate messages and passes the message on to one or more of the views.
+Below is some code that displays a Rails Controller. 
 ```
     class UsersController < ApplicationController
   def index
@@ -131,3 +132,4 @@ file delete all the code and type.
   root 'welcome#index'
   ```
 This will tell Rails to map all request to the welcome controllers index
+
