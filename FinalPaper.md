@@ -18,5 +18,11 @@ During my time in Software Development II I learned alot about the Ruby and Rail
     has_many :comments
 end
 ```
+##The View
 
+
+
+
+
+##The Controller
 
