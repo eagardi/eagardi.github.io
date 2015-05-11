@@ -81,9 +81,14 @@ end
 ```
 
 ##How do they all work together?
-![alt text](https://cms-assets.tutsplus.com/uploads/users/263/posts/21627/image/mvc.png "Logo Title Text 1")
+
 The MVC begins by first splitting applications into three primary tasks
 1. Receive User Input
 2. Process Data
 3. Displaying Output
- The Browser directly talks to the controller which will make a decision on what do to based on the request. If the user interactions needs something from the database then the model will be used to interact with the database. The data from the database is then sent to the model then to the controller and finally rendered in the view for the user.
+![alt text](https://cms-assets.tutsplus.com/uploads/users/263/posts/21627/image/mvc.png "Logo Title Text 1")
+
+ The Browser directly talks to the controller which will make a decision on what do to based on the request. If the user
+ interactions needs something from the database then the model will be used to interact with the database. The data from the
+ database is then sent to the model then to the controller and finally rendered in the view for the user.
+ 
