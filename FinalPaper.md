@@ -171,6 +171,7 @@ The UserController is used to 'control' where the user goes when certain actions
 
 ##Conclusion
 Model View Controller design pattern is a very sucessful design because it seperates functionality into three sections 
+
 1. Receive User Input
   - Handled By the Controller
 2. Process Data
