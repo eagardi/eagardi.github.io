@@ -121,8 +121,12 @@ Located in the
 ```
 app/views/welcome/index.html.erb
 ```
-file delete all the code and type
+file delete all the code and type.
  ```
  <h1> Home Page </h1>
- 
  ```
+ Now we will have to create a route so that the user can view the index.html.erb file that was created
+ Open the file config/routes.rb and type 
+  ``` 
+  root 'welcome#index'
+  ```
