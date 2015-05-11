@@ -26,3 +26,23 @@ According to betterexplained.com the view is
 
 ##The Controller
 Accordingng to betterexplained.com the controller is  responsible for parsing user requests and data submissions, cookies, sessions. They’re the pointy-haired manager that orders employees around. The best controller is Dilbert-esque: It gives orders without knowing (or caring) how it gets done. In our case, the show method in the video controller knows it needs to lookup a video. It asks the model to get video 15, and will eventually display it to the user.
+```
+    class UsersController < ApplicationController
+  def index
+    redirect_to new_user_path
+  end
+  
+  def new
+    @user = User.new 
+  end   
+  
+  def create
+    @user = User.new(params.require(:user).permit(:email,:password,:password_confirmation))
+    if @user.save
+      redirect_to root_path, notice: "Thanks for signing up!"
+    else
+      render "new" 
+    end
+  end
+end
+```
