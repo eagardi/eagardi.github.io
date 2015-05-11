@@ -19,7 +19,38 @@ During my time in Software Development II I learned alot about the Ruby and Rail
 end
 ```
 ##The View
-According to betterexplained.com the view is 
+According to betterexplained.com the views are what the user sees: HTML, CSS, XML, Javascript, JSON.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fanblog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="jumbotron">
+ <div class="other">
+    <h1>The New Fantasy Sports Hub</h1>
+    <p><strong>Our mission is to transform sports with daily fantasy sport topics and discussions. 
+    We're passionate about sports and creating a platform where fans can come to express 
+    opinions and daily fantasy picks. Fantasy Sports Blog was created for as a project for a 
+    Software Development course at Georgia Gwinnett College.</strong></p>
+    
+    <br/>
+    <br/>
+   
+
+  </div>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
+```
 
 
 
