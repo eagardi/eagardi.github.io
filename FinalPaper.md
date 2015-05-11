@@ -87,6 +87,7 @@ The MVC begins by first splitting applications into three primary tasks
 1. Receive User Input
 2. Process Data
 3. Displaying Output
+
 ![alt text](https://cms-assets.tutsplus.com/uploads/users/263/posts/21627/image/mvc.png "Logo Title Text 1")
 
 
