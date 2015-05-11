@@ -88,7 +88,7 @@ The MVC begins by first splitting applications into three primary tasks
 2. Process Data
 3. Displaying Output
 
-![alt text](https://cms-assets.tutsplus.com/uploads/users/263/posts/21627/image/mvc.png "Logo Title Text 1")
+![alt text](http://guides.rubyonrails.org/images/getting_started/rails_welcome.png "Logo Title Text 1")
 
 
  The Browser directly talks to the controller which will make a decision on what do to based on the request. If the user
