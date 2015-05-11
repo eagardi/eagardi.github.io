@@ -95,7 +95,7 @@ The MVC begins by first splitting applications into three primary tasks
  interactions needs something from the database then the model will be used to interact with the database. The data from the
  database is then sent to the model then to the controller and finally rendered in the view for the user.
  
- ##Creating a Rails App
+##Creating a Rails App
  When creating a Rails app the first thing you should do make sure that you have the right version of rails installed
  then type "rails new AppName" in the terminal (AppName is the name of the app that you want to create)
  
