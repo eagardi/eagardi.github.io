@@ -113,6 +113,7 @@ The MVC begins by first splitting applications into three primary tasks
   rails generate controller welcome index
   ```
   into the terminal rails will generate a few files for you as seen below some of the files are html.erb files which will render a view to the user.
+  
   ![alt text](http://codethinked.wpengine.netdna-cdn.com/wp-content/uploads/image13.png "Rails Controller")
   
   
