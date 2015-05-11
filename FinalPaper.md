@@ -140,3 +140,28 @@ After generating your controller run a migration by typing
 rake db:migrate 
 ```
 into the terminal. This command will apply all the new changes in the model to the schema. All of the different relationships that have been update or created will all be applied to the schema.
+
+##Updating the Controller
+The controllers for all ruby classes can be found under app/controllers
+In the example provided 
+```
+    class UsersController < ApplicationController
+  def index
+    redirect_to new_user_path
+  end
+  
+  def new
+    @user = User.new 
+  end   
+  
+  def create
+    @user = User.new(params.require(:user).permit(:email,:password,:password_confirmation))
+    if @user.save
+      redirect_to root_path, notice: "Thanks for signing up!"
+    else
+      render "new" 
+    end
+  end
+end
+``` 
+The UserController is used to 'control' where the user goes when certain actions occur. If the user click a button that is routed to the new method in the UserController a new User is created. In the def create method above if the user is a new user is created with different parameters. Updating the controller is solely based on developers want the controller to control.
