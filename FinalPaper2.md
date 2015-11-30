@@ -7,3 +7,4 @@ Mobile devices have taken over the world and seem to be here to stay. Creating a
 Android phone are divided into the following screen densities
 + ldpi(low) ~ 120 dpi
 + mdpi(medium) ~ 160 dpi
++ hdpi(high) ~ 240 dpi
