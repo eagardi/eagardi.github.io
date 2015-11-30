@@ -5,6 +5,12 @@ Mobile devices have taken over the world and seem to be here to stay. Creating a
 
 ### Generalized Densities
 Android phone are divided into the following screen densities
-+ ldpi(low) ~ 120 dpi
-+ mdpi(medium) ~ 160 dpi
-+ hdpi(high) ~ 240 dpi
++ ldpi(low) ~120dpi
++ mdpi(medium) ~160dpi
++ hdpi(high) ~240dpi
++ xhdpi(extra-high) ~320dpi
++ xxhdpi(extra-extra-high) ~480dpi
++ xxxhdpi(extra-extra-extra-high) ~640dpi
+
+Screen density is the numbetr of dpi's(dots per inch).
+For exampe a medium density device will have 160 dots per inch.
