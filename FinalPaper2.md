@@ -22,4 +22,5 @@ When using images for android devices developers must use the 3:4:6:8:12:16 scal
 
  The picture above shows the actual sized that an image would have to be in order to fit the screen and not be pixelated.
 ### Wrap and Match Parent Vs. Setting Actual Sizes
+Using "wrap_content" and "match_parent" on widgets allows the component to expand and retract depending on the size of the screen.
 
