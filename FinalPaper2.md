@@ -21,4 +21,5 @@ When using images for android devices developers must use the 3:4:6:8:12:16 scal
 ![alt text](http://developer.android.com/images/screens_support/screens-densities.png "Image depicting how images are sized for diffent densities")
 
  The picture above shows the actual sized that an image would have to be in order to fit the screen and not be pixelated.
+### Wrap and Match Parent Vs. Setting Actual Sizes
 
