@@ -17,5 +17,6 @@ For exampe a medium density device will have 160 dots per inch.
 
 ### Creating Different Images to Handle Different Densities
 When using images for android devices developers must use the 3:4:6:8:12:16 scaling ratio between the six different densities.
+
 ![alt text](http://developer.android.com/images/screens_support/screens-densities.png "Logo Title Text 1")
 
