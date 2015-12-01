@@ -14,3 +14,7 @@ Android phone are divided into the following screen densities
 
 Screen density is the numbetr of dpi's(dots per inch).
 For exampe a medium density device will have 160 dots per inch.
+
+### Creating Different Images to Handle Different Densities
+When using images for android devices developers must use the 3:4:6:8:12:16 scaling ratio between the six different densities.
+
