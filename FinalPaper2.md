@@ -24,7 +24,8 @@ When using images for android devices developers must use the 3:4:6:8:12:16 scal
 ### Wrap and Match Parent Vs. Setting Actual Sizes
 Using "wrap_content" and "match_parent" on widgets allows the component to expand and retract depending on the size of the screen.
 
-For Example
+For Example in the image below the TextView below has a layout_width that is set to "wrap_content" and a layout_height that is set to "wrap_content". In the LinearLayout component the layout_width and layout_height are both set "match_parent" which will make the Linear Layout expand to fill the screen of the device that is rendering it.
+
 ![alt text](http://themasterworld.com/wp-content/uploads/2015/04/Alt-Tag-android-linear-layout.png "Image depicting use of match_parent and wrap_content")
 
 
