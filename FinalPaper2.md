@@ -35,3 +35,5 @@ For example if you want to place a long list of button that each lead to a diffe
 
 ![alt text](http://androideity.com/wp-content/uploads/2011/07/ScrollView01.png "Image depicting use of scroll view")
 
+The image above shows an example of a table placed inside of a scrollview. If the table grows to be larger than what the user can see
+
