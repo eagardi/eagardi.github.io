@@ -1,7 +1,7 @@
-# Designing the Android Interface
+# Designing the Android Interface for Multiple Screens
 
 ### Introduction
-Mobile devices have taken over the world and seem to be here to stay. Creating attractive user interfaces as well as ensuring that each mobile device can show the application the user the way its meant to be seen. Mobile devices render containers and widgets in dp which are device independent pixels while fonts are rendered in sp or scale independent pixels dictate the size of font. Throught this paper I will demonstrate through code how to use dp's and sp's design user interfaces for all Android devices.
+Mobile devices have taken over the world and seem to be here to stay. Creating attractive user interfaces as well as ensuring that each mobile device can show the application the user the way its meant to be seen. Mobile devices render containers and widgets in dp which are device independent pixels while fonts are rendered in sp or scale independent pixels dictate the size of font. Throught this paper I will demonstrate through code how to use dp's and sp's design user interfaces for all Android devices as well as .
 
 ### Generalized Densities
 Android phone are divided into the following screen densities
@@ -28,4 +28,8 @@ For Example in the image below the TextView below has a layout_width that is set
 
 ![alt text](http://themasterworld.com/wp-content/uploads/2015/04/Alt-Tag-android-linear-layout.png "Image depicting use of match_parent and wrap_content")
 
+### Using Scroll Views to Create More Real Esate
+
+Scroll views are useful for helping to help create more space for developers to place more components such as buttons and images
+For example if you want to place a long list of button that each lead to a different screen, you can place the buttons within a scroll view and if the phone the user is to small to display all the buttons the user will be able to scroll down to the bottom of the page and make their selection.
 
