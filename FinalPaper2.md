@@ -33,3 +33,5 @@ For Example in the image below the TextView below has a layout_width that is set
 Scroll views are useful for helping to help create more space for developers to place more components such as buttons and images
 For example if you want to place a long list of button that each lead to a different screen, you can place the buttons within a scroll view and if the phone the user is to small to display all the buttons the user will be able to scroll down to the bottom of the page and make their selection.
 
+![alt text](http://androideity.com/wp-content/uploads/2011/07/ScrollView01.png "Image depicting use of scroll view")
+
