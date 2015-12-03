@@ -12,7 +12,7 @@ Android phone are divided into the following screen densities
 + xxhdpi(extra-extra-high) ~480dpi
 + xxxhdpi(extra-extra-extra-high) ~640dpi
 
-Screen density is the numbetr of dpi's(dots per inch).
+Screen density is the numberr of dpi's(dots per inch).
 For exampe a medium density device will have 160 dots per inch.
 
 ### Creating Different Images to Handle Different Densities
